@@ -15,6 +15,7 @@ body {
     margin-top: 12px;
     border: 0px;
     border-radius: 8px;
+    font-weight: 700;
 }
 
 /* hero */
@@ -143,4 +144,40 @@ ul {
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
+}
+
+/* action */
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.action-box {
+    background-color: #3882F6;
+    width: 800px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caption-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.caption-caption {
+    font-size: 14px;
+    font-weight: 300;
+    color:#bdbfc3;
+}
+
+.action-button {
+    border: 1px solid #ffffff;
+    
 }
